@@ -8,7 +8,7 @@ $clientId = '3acd24b1d76b0bcf6e25740654bbb50e0fa7e4a9cf455b016eeacca4e6f5fcce';
 $clientSecret = '4101fb4e3fac13bd223982ffea9a5f247b4d75150043080d069f2e74b0966f20';
 $client = new OAuth2\Client($clientId, $clientSecret);
 
-$redirectUrl    = 'http://www.myapp.com/oauth_callback';
+$redirectUrl    = 'http://alchemy1.nationbuilder.com/oauth_callback';
 $authorizeUrl   = 'https://alchemy1.nationbuilder.com/oauth/authorize';
 $authUrl = $client->getAuthenticationUrl($authorizeUrl, $redirectUrl);
 echo $authUrl;
