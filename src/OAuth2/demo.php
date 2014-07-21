@@ -1,4 +1,5 @@
 <?php
+echo "hello dear we useing php in nation builder";
 require('path/to/client.php');
 require('path/to/GrantType/IGrantType.php');
 require('path/to/GrantType/AuthorizationCode.php');
